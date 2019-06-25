@@ -17,6 +17,8 @@
 		7AA34C9222BB0ED200165D46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AA34C9022BB0ED200165D46 /* LaunchScreen.storyboard */; };
 		7AA34C9D22BB0ED200165D46 /* DungeonGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA34C9C22BB0ED200165D46 /* DungeonGameTests.swift */; };
 		7AA34CA822BB0ED200165D46 /* DungeonGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA34CA722BB0ED200165D46 /* DungeonGameUITests.swift */; };
+		7AFE125F22BC02D3000B65AA /* TileSets.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7AFE125D22BC02D3000B65AA /* TileSets.sks */; };
+		7AFE126022BC02D3000B65AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AFE125E22BC02D3000B65AA /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		7AA34CA322BB0ED200165D46 /* DungeonGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DungeonGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AA34CA722BB0ED200165D46 /* DungeonGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DungeonGameUITests.swift; sourceTree = "<group>"; };
 		7AA34CA922BB0ED200165D46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AFE125D22BC02D3000B65AA /* TileSets.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TileSets.sks; sourceTree = "<group>"; };
+		7AFE125E22BC02D3000B65AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 		7AA34C7522BB0ED100165D46 = {
 			isa = PBXGroup;
 			children = (
+				7AFE125D22BC02D3000B65AA /* TileSets.sks */,
+				7AFE125E22BC02D3000B65AA /* Assets.xcassets */,
 				7AA34C8022BB0ED100165D46 /* DungeonGame */,
 				7AA34C9B22BB0ED200165D46 /* DungeonGameTests */,
 				7AA34CA622BB0ED200165D46 /* DungeonGameUITests */,
@@ -238,9 +244,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AFE125F22BC02D3000B65AA /* TileSets.sks in Resources */,
 				7AA34C8D22BB0ED100165D46 /* Main.storyboard in Resources */,
 				7AA34C8422BB0ED100165D46 /* GameScene.sks in Resources */,
 				7AA34C8F22BB0ED200165D46 /* Assets.xcassets in Resources */,
+				7AFE126022BC02D3000B65AA /* Assets.xcassets in Resources */,
 				7AA34C9222BB0ED200165D46 /* LaunchScreen.storyboard in Resources */,
 				7AA34C8622BB0ED100165D46 /* Actions.sks in Resources */,
 			);
