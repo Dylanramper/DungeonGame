@@ -17,6 +17,16 @@
 		7AA34C9222BB0ED200165D46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AA34C9022BB0ED200165D46 /* LaunchScreen.storyboard */; };
 		7AA34C9D22BB0ED200165D46 /* DungeonGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA34C9C22BB0ED200165D46 /* DungeonGameTests.swift */; };
 		7AA34CA822BB0ED200165D46 /* DungeonGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA34CA722BB0ED200165D46 /* DungeonGameUITests.swift */; };
+		E60123C922C6CB970003FE1C /* TileSet.sks in Resources */ = {isa = PBXBuildFile; fileRef = E60123C722C6CB970003FE1C /* TileSet.sks */; };
+		E60123CC22C6ED3A0003FE1C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60123CB22C6ED3A0003FE1C /* Extensions.swift */; };
+		E60123CE22C6EE4A0003FE1C /* Animatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60123CD22C6EE4A0003FE1C /* Animatable.swift */; };
+		E604DB9E22C2F47400C6AF9A /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = E604DB9D22C2F47400C6AF9A /* HUD.swift */; };
+		E604DBA122C3047400C6AF9A /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = E604DBA022C3047300C6AF9A /* Player.swift */; };
+		E604DBA322C304AE00C6AF9A /* Wizard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E604DBA222C304AE00C6AF9A /* Wizard.swift */; };
+		E604DBA522C3050E00C6AF9A /* Knight.swift in Sources */ = {isa = PBXBuildFile; fileRef = E604DBA422C3050E00C6AF9A /* Knight.swift */; };
+		E604DBA722C3071000C6AF9A /* FlameDemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = E604DBA622C3071000C6AF9A /* FlameDemon.swift */; };
+		E65E5E2122CD65070009079B /* Level2.sks in Resources */ = {isa = PBXBuildFile; fileRef = E65E5E2022CD65070009079B /* Level2.sks */; };
+		E66F092222C5A06A00114BDB /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66F092122C5A06A00114BDB /* Types.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +63,16 @@
 		7AA34CA322BB0ED200165D46 /* DungeonGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DungeonGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AA34CA722BB0ED200165D46 /* DungeonGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DungeonGameUITests.swift; sourceTree = "<group>"; };
 		7AA34CA922BB0ED200165D46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E60123C722C6CB970003FE1C /* TileSet.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TileSet.sks; sourceTree = "<group>"; };
+		E60123CB22C6ED3A0003FE1C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		E60123CD22C6EE4A0003FE1C /* Animatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animatable.swift; sourceTree = "<group>"; };
+		E604DB9D22C2F47400C6AF9A /* HUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUD.swift; sourceTree = "<group>"; };
+		E604DBA022C3047300C6AF9A /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		E604DBA222C304AE00C6AF9A /* Wizard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wizard.swift; sourceTree = "<group>"; };
+		E604DBA422C3050E00C6AF9A /* Knight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knight.swift; sourceTree = "<group>"; };
+		E604DBA622C3071000C6AF9A /* FlameDemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlameDemon.swift; sourceTree = "<group>"; };
+		E65E5E2022CD65070009079B /* Level2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level2.sks; sourceTree = "<group>"; };
+		E66F092122C5A06A00114BDB /* Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +103,7 @@
 		7AA34C7522BB0ED100165D46 = {
 			isa = PBXGroup;
 			children = (
+				E66F092122C5A06A00114BDB /* Types.swift */,
 				7AA34C8022BB0ED100165D46 /* DungeonGame */,
 				7AA34C9B22BB0ED200165D46 /* DungeonGameTests */,
 				7AA34CA622BB0ED200165D46 /* DungeonGameUITests */,
@@ -103,15 +124,20 @@
 		7AA34C8022BB0ED100165D46 /* DungeonGame */ = {
 			isa = PBXGroup;
 			children = (
-				7AA34C8122BB0ED100165D46 /* AppDelegate.swift */,
-				7AA34C8322BB0ED100165D46 /* GameScene.sks */,
+				E60123CB22C6ED3A0003FE1C /* Extensions.swift */,
+				E66F092322C5A17B00114BDB /* Levels */,
+				E604DB9F22C303BA00C6AF9A /* Character */,
 				7AA34C8522BB0ED100165D46 /* Actions.sks */,
+				E604DBA622C3071000C6AF9A /* FlameDemon.swift */,
+				7AA34C8122BB0ED100165D46 /* AppDelegate.swift */,
 				7AA34C8722BB0ED100165D46 /* GameScene.swift */,
 				7AA34C8922BB0ED100165D46 /* GameViewController.swift */,
 				7AA34C8B22BB0ED100165D46 /* Main.storyboard */,
 				7AA34C8E22BB0ED200165D46 /* Assets.xcassets */,
+				E60123C722C6CB970003FE1C /* TileSet.sks */,
 				7AA34C9022BB0ED200165D46 /* LaunchScreen.storyboard */,
 				7AA34C9322BB0ED200165D46 /* Info.plist */,
+				E604DB9D22C2F47400C6AF9A /* HUD.swift */,
 			);
 			path = DungeonGame;
 			sourceTree = "<group>";
@@ -132,6 +158,26 @@
 				7AA34CA922BB0ED200165D46 /* Info.plist */,
 			);
 			path = DungeonGameUITests;
+			sourceTree = "<group>";
+		};
+		E604DB9F22C303BA00C6AF9A /* Character */ = {
+			isa = PBXGroup;
+			children = (
+				E604DBA022C3047300C6AF9A /* Player.swift */,
+				E604DBA422C3050E00C6AF9A /* Knight.swift */,
+				E604DBA222C304AE00C6AF9A /* Wizard.swift */,
+				E60123CD22C6EE4A0003FE1C /* Animatable.swift */,
+			);
+			path = Character;
+			sourceTree = "<group>";
+		};
+		E66F092322C5A17B00114BDB /* Levels */ = {
+			isa = PBXGroup;
+			children = (
+				7AA34C8322BB0ED100165D46 /* GameScene.sks */,
+				E65E5E2022CD65070009079B /* Level2.sks */,
+			);
+			path = Levels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,10 +284,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E60123C922C6CB970003FE1C /* TileSet.sks in Resources */,
 				7AA34C8D22BB0ED100165D46 /* Main.storyboard in Resources */,
 				7AA34C8422BB0ED100165D46 /* GameScene.sks in Resources */,
 				7AA34C8F22BB0ED200165D46 /* Assets.xcassets in Resources */,
 				7AA34C9222BB0ED200165D46 /* LaunchScreen.storyboard in Resources */,
+				E65E5E2122CD65070009079B /* Level2.sks in Resources */,
 				7AA34C8622BB0ED100165D46 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,8 +316,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				7AA34C8822BB0ED100165D46 /* GameScene.swift in Sources */,
+				E604DB9E22C2F47400C6AF9A /* HUD.swift in Sources */,
 				7AA34C8A22BB0ED100165D46 /* GameViewController.swift in Sources */,
+				E604DBA722C3071000C6AF9A /* FlameDemon.swift in Sources */,
+				E604DBA122C3047400C6AF9A /* Player.swift in Sources */,
+				E60123CC22C6ED3A0003FE1C /* Extensions.swift in Sources */,
+				E60123CE22C6EE4A0003FE1C /* Animatable.swift in Sources */,
+				E604DBA322C304AE00C6AF9A /* Wizard.swift in Sources */,
+				E66F092222C5A06A00114BDB /* Types.swift in Sources */,
 				7AA34C8222BB0ED100165D46 /* AppDelegate.swift in Sources */,
+				E604DBA522C3050E00C6AF9A /* Knight.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
